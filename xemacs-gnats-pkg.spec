@@ -29,7 +29,8 @@ Raportowanie b³êdów dla XEmacsa.
 %patch0 -p1
 
 %build
-(cd man/gnats; awk '/^\\input texinfo/ {print FILENAME}' * | xargs makeinfo)
+cd man/gnats
+awk '/^\\input texinfo/ {print FILENAME}' * | xargs makeinfo
 
 %install
 rm -rf $RPM_BUILD_ROOT
