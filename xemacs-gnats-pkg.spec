@@ -2,12 +2,25 @@ Summary:	XEmacs bug reports
 Summary(pl):	Raportowanie bЁЙdСw dla XEmacsa
 Name:		xemacs-gnats-pkg
 %define 	srcname	gnats
-Version:	1.12
+Version:	1.13
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
-Group(de):	Applikationen/Editors/Emacs
+Group(cs):	Aplikace/Editory/Emacs
+Group(da):	Programmer/Tekstbehandlere/Emacs
+Group(de):	Applikationen/Editoren/Emacs
+Group(es):	Aplicaciones/Editores/Emacs
+Group(fr):	Applications/Editeurs/Emacs
+Group(is):	Forrit/Ritlar/Emacs
+Group(it):	Applicazioni/Editor/Emacs
+Group(ja):	╔╒╔в╔Й╔╠║╪╔╥╔Г╔С/╔╗╔г╔ё╔©/Emacs
+Group(no):	Applikasjoner/Editorer/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
+Group(pt):	AplicaГУes/Editores/Emacs
+Group(ru):	Приложения/Редакторы/Emacs
+Group(sl):	Programi/Urejevalniki/Emacs
+Group(sv):	TillДmpningar/Editorer/Emacs
+Group(uk):	Прикладн╕ Програми/Редактори/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/
@@ -19,8 +32,10 @@ Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+XEmacs bug reports.
 
 %description -l pl 
+Raportowanie bЁЙdСw dla XEmacsa.
 
 %prep
 %setup -q -c
