@@ -10,11 +10,12 @@ Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	678c190f7cd184426dcccc0f3a6d10b2
 Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/
-BuildArch:	noarch
-Conflicts:	xemacs-sumo
+BuildRequires:	texinfo
 Requires:	xemacs
-Requires:	xemacs-mail-lib-pkg
 Requires:	xemacs-base-pkg
+Requires:	xemacs-mail-lib-pkg
+Conflicts:	xemacs-sumo
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -53,8 +54,8 @@ rm -fr $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc lisp/gnats/ChangeLog
-%{_datadir}/xemacs-packages%{_sysconfdir}/*
-%{_infodir}/*
+%{_datadir}/xemacs-packages/etc/*
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.el*
 %{_datadir}/xemacs-packages/lib-src/*
+%{_infodir}/*.info*
