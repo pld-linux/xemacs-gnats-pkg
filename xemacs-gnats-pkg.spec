@@ -2,7 +2,7 @@ Summary:	XEmacs bug reports
 Summary(pl):	XEmacs bug reports
 Name:		xemacs-gnats-pkg
 %define 	srcname	gnats
-Version:	1.10
+Version:	1.12
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
