@@ -1,0 +1,25 @@
+diff -Nur xemacs-gnats-pkg-1.10/man/gnats/gnats.texi xemacs-gnats-pkg-1.10.new/man/gnats/gnats.texi
+--- xemacs-gnats-pkg-1.10/man/gnats/gnats.texi	Wed Jan 14 07:24:58 1998
++++ xemacs-gnats-pkg-1.10.new/man/gnats/gnats.texi	Sun Mar 26 15:05:22 2000
+@@ -1,15 +1,17 @@
+ \input texinfo   @c -*-texinfo-*-
+-@setfilename gnats.info   
++@setfilename ../../info/gnats.info   
+ 
+ @include version.texi
+ 
+ @ifinfo
+ @format
+-START-INFO-DIR-ENTRY
+-* Keeping Track: (gnats).        GNU Problem Report Management System
+-END-INFO-DIR-ENTRY
++@dircategory XEmacs Editor:
++@direntry
++* Keeping Track: (gnats).               GNU Problem Report Management System
++@end direntry
+ @end format
+ @end ifinfo
++
+ 
+ @ifinfo
+ Copyright @copyright{} 1993, 1995 Free Software Foundation, Inc.
