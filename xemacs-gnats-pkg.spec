@@ -2,7 +2,7 @@ Summary:	XEmacs bug reports
 Summary(pl):	Raportowanie b³êdów dla XEmacsa
 Name:		xemacs-gnats-pkg
 %define 	srcname	gnats
-Version:	1.13
+Version:	1.14
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
