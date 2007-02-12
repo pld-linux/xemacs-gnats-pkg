@@ -1,5 +1,5 @@
 Summary:	XEmacs bug reports
-Summary(pl):	Raportowanie b³êdów dla XEmacsa
+Summary(pl.UTF-8):   Raportowanie bÅ‚Ä™dÃ³w dla XEmacsa
 Name:		xemacs-gnats-pkg
 %define 	srcname	gnats
 Version:	1.16
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XEmacs bug reports.
 
-%description -l pl
-Raportowanie b³êdów dla XEmacsa.
+%description -l pl.UTF-8
+Raportowanie bÅ‚Ä™dÃ³w dla XEmacsa.
 
 %prep
 %setup -q -c
