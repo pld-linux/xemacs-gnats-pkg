@@ -1,5 +1,5 @@
 Summary:	XEmacs bug reports
-Summary(pl.UTF-8):   Raportowanie błędów dla XEmacsa
+Summary(pl.UTF-8):	Raportowanie błędów dla XEmacsa
 Name:		xemacs-gnats-pkg
 %define 	srcname	gnats
 Version:	1.16
