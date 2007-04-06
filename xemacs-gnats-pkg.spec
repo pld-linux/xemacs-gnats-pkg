@@ -6,7 +6,7 @@ Version:	1.16
 Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	678c190f7cd184426dcccc0f3a6d10b2
 Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/
