@@ -2,14 +2,14 @@ Summary:	XEmacs bug reports
 Summary(pl.UTF-8):	Raportowanie błędów dla XEmacsa
 Name:		xemacs-gnats-pkg
 %define 	srcname	gnats
-Version:	1.17
+Version:	1.19
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	f048ff33f8b6f724613bd63173b9d9ef
+Source0:	http://ftp.xemacs.org/pub/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+# Source0-md5:	b554c131b845b398d9151863b106953a
 Patch0:		%{name}-info.patch
-URL:		http://www.xemacs.org/
+URL:		https://www.xemacs.org/
 BuildRequires:	texinfo
 Requires:	xemacs
 Requires:	xemacs-base-pkg
